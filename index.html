@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrakech da Gustavo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <img src="marrakech.jpg" alt="Marrakech da Gustavo Logo" class="logo">
+        <h1>Marrakech da Gustavo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galleria">Galleria</a></li>
+                <li><a href="#prenota">Prenota</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Benvenuti a Marrakech da Gustavo!</h2>
+            <p>Scopri i sapori autentici del Marocco e dell'Italia in un'esperienza culinaria unica nel cuore di Milano.</p>
+        </section>
+
+        <section id="chi-siamo">
+            <h2>Chi Siamo</h2>
+            <p>Da una passione per la cucina marocchina e italiana, nasce Marrakech da Gustavo. Situato nel cuore di Milano, il nostro ristorante offre un menu che celebra il meglio di entrambe le tradizioni culinarie.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <h3>Specialità Marocchine</h3>
+            <ul>
+                <li>Couscous Royale</li>
+                <li>Tajine di Pollo con Limone e Olive</li>
+                <li>Bastilla con Pollo e Mandorle</li>
+            </ul>
+            <h3>Specialità Italiane</h3>
+            <ul>
+                <li>Risotto alla Milanese</li>
+                <li>Pasta alla Norma</li>
+                <li>Tiramisù Artigianale</li>
+            </ul>
+        </section>
+
+        <section id="galleria">
+            <h2>Galleria</h2>
+            <p>Foto delle nostre deliziose pietanze e dell'ambiente accogliente del ristorante.</p>
+        </section>
+
+        <section id="prenota">
+            <h2>Prenota</h2>
+            <p>Compila il modulo per assicurarti un posto nel nostro ristorante.</p>
+            <section id="prenota">
+                <h2>Prenota</h2>
+                <p>Compila il modulo per assicurarti un posto nel nostro ristorante.</p>
+                <form action="process_reservation.php" method="post">
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Telefono:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="date">Data:</label><br>
+                    <input type="date" id="date" name="date" required><br>
+                    <label for="time">Ora:</label><br>
+                    <input type="time" id="time" name="time" required><br>
+                    <label for="guests">Numero di Ospiti:</label><br>
+                    <input type="number" id="guests" name="guests" required><br>
+                    <input type="submit" value="Prenota">
+                </form>
+            </section>
+            
+        </section>
+
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <p>Dove Trovarci</p>
+            <p>
+                strong>Indirizzo:</strong> 
+                <a href="https://maps.app.goo.gl/KWqEZ98TNbaDaoz28"> Via Gozzano, 37, 10015 Ivrea TO </a></p>
+
+            <p>
+                <strong>Telefono:</strong>
+                :<a href=" tel:+393791184412">+393791184412</a></p>
+            <p>
+                
+            <p>
+                <strong>Instagram:</strong> 
+                :<a href="https://www.instagram.com/ristorantepizzeria_marrakech?igsh=MXZ0MGRoN2c1d2lqNw%3D%3D&utm_source=qr"target="_blank">@ristorantepizzeria_marrakech</a> </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marrakech da Gustavo. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
